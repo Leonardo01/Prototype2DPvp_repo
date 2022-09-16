@@ -22,4 +22,6 @@ public class Backgroundscrolling : MonoBehaviour
         offset = new Vector2(xVelocity,yVelocity);               
         background.mainTextureOffset += offset * Time.deltaTime;
     }
+
+
 }
