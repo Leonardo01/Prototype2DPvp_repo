@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | NanoPlugin</title>
+    <title>Unity WebGL Player | Cyborg_Strategy_Game</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1400 height=600></canvas>
+      <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">NanoPlugin</div>
+        <div id="unity-build-title">Cyborg_Strategy_Game</div>
       </div>
     </div>
     <script>
@@ -62,9 +62,9 @@
         frameworkUrl: buildUrl + "/webgl.framework.js",
         codeUrl: buildUrl + "/webgl.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "wezrule",
-        productName: "NanoPlugin",
-        productVersion: "0.1",
+        companyName: "DefaultCompany",
+        productName: "Cyborg_Strategy_Game",
+        productVersion: "0.1.0",
         showBanner: unityShowBanner,
       };
 
@@ -93,7 +93,7 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "1400px";
+        canvas.style.width = "960px";
         canvas.style.height = "600px";
       }
 
